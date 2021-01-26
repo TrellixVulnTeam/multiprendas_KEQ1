@@ -1,0 +1,20 @@
+body{
+    display: grid;
+    grid-template-columns: 300px 1fr 1fr;
+    grid-template-rows: 300px;
+    grid-auto-rows: auto;
+    gap: 1rem;
+    grid-template-areas: 
+        "header header header"
+        "aside  section section"
+        "aside  section section"
+        "footer footer footer" ;
+}
+
+body > * {
+    background-color: rgba(0, 0, 0, .12);
+}
+header{grid-area: header;}
+aside{grid-area: aside;}
+section{grid-area: section;}
+footer{grid-area: footer;} 

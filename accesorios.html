@@ -12,73 +12,210 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     </head>
     <body> 
-        <div class="container">
-            <header class="row">
-                <div class="col-3">
-                    <a href="index.html">
-                        <img src="img/icons/Logo.jpeg" class="img-fluid" alt="Logo de multiprendas" width="200px" height="auto">
-                    </a>
-                </div>
-                <div class="col">
-                   <h1>MULTIPRENDAS</h1>
-                   <h2>CLOTHING OUTLET</h2>   
-                   <h2>ACCESORIOS</h2>
+        <main> 
+            <header>     
+                <a href="index.html">
+                <img src="img/icons/Logo.jpeg" alt="Logo de multiprendas" width="200px" height="auto">                    
+                </a>
+                <div>
+                    <h1>MULTIPRENDAS</h1>
+                    <h2>CLOTHING OUTLET</h2>   
+                    <h2>ACCESORIOS</h2>
                 </div>
             </header>
-
-            <hr>  
-            
-            <main class="row">
-                <aside class="col-2">
-                    <ul>
-                        <li><a href="mujer.html">Prendas para mujer</a></li>
-                        <li><a href="hombre.html">Prendas para hombre</a></li>
-                        <li><a href="accesorios.html">Accesorios</a></li> 
-                    </ul>      
-                </aside> 
-                <section class="col">
-                        <div class="box">
-                            <img src="img/accesorios/adidas.JPG" alt="Perfume Adidas para hombre" height="260" width="auto">
-                            <label>Perfume Adidas para hombre</label>
-                        </div>
-                        <div class="box">
-                            <img src="img/accesorios/guest.JPG" alt="Perfume GUEST para hombre" height="260" width="auto"> 
-                            <label>Perfume GUEST para hombre</label>
-                        </div> 
-                        <div class="box">
-                            <img src="img/accesorios/maleta1.JPG" alt="Maleta de viaje Bear and Bark" height="260" width="auto">     
-                            <label>Maleta de viaje Bear and Bark</label>    
-                        </div>
-                </section> 
-            </main> 
-            
-                
-            <hr>     
-
-            <footer class="row">
-                <div class="col">
-                    <nav>
-                            <a href="index.html">Inicio</a>
-                            <a href="acerca.html">Acerca de nosotros</a>
-                            <a href="contacto.html">Contacto</a>
-                            <a href="preguntas.html">Preguntas frecuentes</a>  
-                    </nav>
-                    <div>
-                        <a href="https://www.facebook.com/multi.prendas.73" target="blank">
-                            <img src="img/icons/facebook.svg" alt="Logo de Facebook" height="50" width="50">
-                        </a>
-                        <a href="https://www.instagram.com/multi_prendas/" target="blank">
-                            <img src="img/icons/instagram.svg" alt="Logo de Instagram" height="50" width="50">
-                        </a> 
-                        <a href="https://api.whatsapp.com/send?phone=+573105538332" target="blank">
-                            <img src="img/icons/whatsapp.svg" alt="Logo de Whatsapp" height="50" width="50">
-                        </a>
-                    </div>
-                    <label>Copyright &copy; 2020 Multiprendas</label><br>
-                    <label>Todos los derechos reservados</label>      
+           
+            <aside>
+                <a href="mujer.html">Prendas para mujer</a>
+                <a href="hombre.html">Prendas para hombre</a>
+                <a href="accesorios.html">Accesorios</a>        
+            </aside> 
+            <section>
+                <div class="box">
+                    <a href="#modal" data-toggle="modal">
+                        <img src="img/accesorios/adidas.webp" alt="Perfume Adidas para hombre" height="250" width="auto">
+                    </a>        
+                    <label>Perfume Adidas para hombre</label>  
                 </div>
+                <div class="box">
+                    <a href="#modal1" data-toggle="modal">
+                        <img src="img/accesorios/bark.webp" alt="Maleta de viaje Bear and Bark" height="250" width="auto">
+                    </a>        
+                    <label>Maleta de viaje Bear and Bark</label>  
+                </div>
+                <div class="box">
+                    <a href="#modal2" data-toggle="modal">
+                        <img src="img/accesorios/guest.webp" alt="Perfume GUEST para hombre" height="250" width="auto">
+                    </a>        
+                    <label>Perfume GUEST para hombre</label>  
+                </div>       
+                <div class="box">
+                    <a href="#modal3" data-toggle="modal">
+                        <img src="img/accesorios/columbia.webp" alt="Gorra COLUMBIA para mujer" height="250" width="auto">
+                    </a>        
+                    <label>Gorra COLUMBIA para mujer</label>  
+                </div>    
+                <div class="box">
+                    <a href="#modal4" data-toggle="modal">
+                        <img src="img/accesorios/sauvage.webp" alt="Perfume SAUVAGE para mujer" height="250" width="auto">
+                    </a>        
+                    <label>Perfume SAUVAGE para mujer</label>  
+                </div> 
+                <div class="box">
+                    <a href="#modal5" data-toggle="modal">
+                        <img src="img/accesorios/puma.webp" alt="Gorra PUMA para mujer" height="250" width="auto">
+                    </a>        
+                    <label>Gorra PUMA para mujer</label>  
+                </div>                    
+            </section>        
+     
+            <footer >
+                <nav>
+                    <a href="index.html">Inicio</a>
+                    <a href="acerca.html">Acerca de nosotros</a>
+                    <a href="contacto.html">Contacto</a>
+                    <a href="preguntas.html">Preguntas frecuentes</a>  
+                </nav>
+                <div>
+                    <a href="https://www.facebook.com/multi.prendas.73" target="blank">
+                        <img src="img/icons/facebook.svg" alt="Logo de Facebook" height="50" width="50">
+                    </a>
+                    <a href="https://www.instagram.com/multi_prendas/" target="blank">
+                        <img src="img/icons/instagram.svg" alt="Logo de Instagram" height="50" width="50">
+                    </a> 
+                    <a href="https://api.whatsapp.com/send?phone=+573105538332" target="blank">
+                        <img src="img/icons/whatsapp.svg" alt="Logo de Whatsapp" height="50" width="50">
+                    </a>
+                </div>
+                <label>Copyright &copy; 2020 Multiprendas</label><br>
+                <label>Todos los derechos reservados</label>      
             </footer>
-        </div>    
+        </main>
+        <div class="modal fade" id="modal" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Perfume Adidas para hombre</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="img/accesorios/adidas.webp" alt="Perfume Adidas para hombre" height="250" width="auto">
+                        <p>Marca: Adidas</p>
+                        <p>Versi&oacuten: Team Force</p>
+                        <p>Precio: $180.000 COP</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="modal1" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Maleta de viaje Bear and Bark</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="img/accesorios/bark.webp" alt="Maleta de viaje Bear and Bark" height="250" width="auto">
+                        <p>Marca: Bear and Bark</p>
+                        <p>Material: Algod&oacuten</p>
+                        <p>Precio: $180.000 COP</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="modal2" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Perfume GUEST para hombre</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="img/accesorios/guest.webp" alt="Perfume GUEST para hombre" height="250" width="auto">
+                        <p>Marca: GUEST</p>
+                        <p>Tama&ntilde;o: 50cc</p>
+                        <p>Precio: $120.000 COP</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="modal3" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Gorra COLUMBIA para mujer</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="img/accesorios/columbia.webp" alt="Gorra COLUMBIA para mujer" height="250" width="auto">
+                        <p>Marca: Columbia</p>
+                        <p>Talla: M</p>
+                        <p>Precio: $110.000 COP</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="modal4" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Perfume SAUVAGE para mujer</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="img/accesorios/sauvage.webp" alt="Perfume SAUVAGE para mujer" height="250" width="auto">
+                        <p>Marca: SAUVAGE</p>
+                        <p>Tama&ntilde;o: 100cc</p>
+                        <p>Precio: $150.000 COP</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="modal5" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Gorra PUMA para mujer</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="img/accesorios/puma.webp" alt="Gorra PUMA para mujer" height="250" width="auto">
+                        <p>Marca: PUMA</p>
+                        <p>Talla: M</p>
+                        <p>Precio: $110.000 COP</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>    
     </body>
